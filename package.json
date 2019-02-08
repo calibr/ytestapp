@@ -1,0 +1,25 @@
+{
+  "name": "ytestapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/*; webpack",
+    "watch": "webpack --watch --mode=development"
+  },
+  "author": "calibr <awcalibr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "express": "^4.16.4",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "ws": "^6.1.3",
+    "yjs": "^13.0.0-78"
+  }
+}
